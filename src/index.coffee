@@ -21,5 +21,7 @@ class PatternSet
         callback specification if callback?
         results.push specification
     results
-    
+
+  @create: -> new PatternSet
+
 module.exports = PatternSet
