@@ -1,0 +1,30 @@
+{
+  "name": "evie-wildcards",
+  "version": "1.0.0-alpha-01",
+  "description": "Event wildcard matching",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prepublish": "coffee --nodejs --harmony --compile -o ./lib ./src",
+    "watch": "coffee --nodejs --harmony --compile --watch -o lib/ ./src",
+    "test": "coffee --nodejs --harmony test/index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyoder/evie-wildcards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyoder/evie-wildcards/issues"
+  },
+  "homepage": "https://github.com/dyoder/evie-wildcards",
+  "dependencies": {
+    "fairmont": "^1.0.0-alpha-15"
+  },
+  "devDependencies": {
+    "amen": "^1.0.0-alpha-06"
+  }
+}
